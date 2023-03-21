@@ -54,7 +54,7 @@ TEST(test_cook, test_cook) {
 
 TEST(test_cancel, test_cancel) {
     Automata automat;
-    cancel();
+    automat.cancel();
     EXPECT_EQ(WAIT, automat.getState());
 }
 
