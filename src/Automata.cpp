@@ -22,7 +22,7 @@ void Automata::coin(int money) {
     state = ACCEPT;
 }
 
-string Automata::getMenu() {
+std::string Automata::getMenu() {
     std::string result = "";
     for (int i = 0; i < menu.size(); i++) {
         result += menu[i] + " - " + std::to_string(prices[i]) + "\n";
