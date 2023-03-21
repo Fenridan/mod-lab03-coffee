@@ -3,8 +3,7 @@
 #include "Automata.h"
 using namespace std;
 
-int main()
-{
+int main() {
 
     Automata automat = Automata();
     
