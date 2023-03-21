@@ -2,8 +2,7 @@
 
 using namespace std;
 
-Automata::Automata()
-{
+Automata::Automata() {
     cash = 0;
     state = OFF;
     menu = { "Кофе", "Чай", "Молоко", "Какао" };
