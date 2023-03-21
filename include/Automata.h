@@ -13,6 +13,7 @@ private:
 	vector<int> prices;
 	STATES state;
 public:
+	Automata();
 	void on();
 	void off();
 	void coin(int money);
