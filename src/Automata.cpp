@@ -43,9 +43,7 @@ void Automata::choice(int choice) {
             cash -= prices[choice];
             cook();
             finish();
-        }
-        else
-            cancel();
+        } else cancel();
     }
 }
 
