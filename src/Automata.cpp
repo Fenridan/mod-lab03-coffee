@@ -1,8 +1,5 @@
 // Copyright 2022 UNN-IASR
 #include "Automata.h"
-
-using namespace std;
-
 Automata::Automata() {
     cash = 0;
     state = OFF;
@@ -26,9 +23,9 @@ void Automata::coin(int money) {
 }
 
 string Automata::getMenu() {
-    string result = "";
+    std::string result = "";
     for (int i = 0; i < menu.size(); i++) {
-        result += menu[i] + " - " + to_string(prices[i]) + "\n";
+        result += menu[i] + " - " + std::to_string(prices[i]) + "\n";
     }
     return result;
 }
