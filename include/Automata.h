@@ -7,12 +7,12 @@ using namespace std;
 enum STATES { OFF, WAIT, ACCEPT, CHECK, COOK };
 
 class Automata {
-private:
+ private:
         int cash;
         vector<string> menu;
         vector<int> prices;
         STATES state;
-public:
+ public:
         Automata();
         void on();
         void off();
