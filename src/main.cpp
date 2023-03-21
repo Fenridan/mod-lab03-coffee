@@ -4,9 +4,7 @@
 #include "Automata.h"
 
 int main() {
-
     Automata automat = Automata();
-    
     automat.on();
     std::cout << automat.getState() << endl;
     automat.coin(150);
