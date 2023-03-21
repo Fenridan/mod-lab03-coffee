@@ -1,4 +1,6 @@
 // Copyright 2023 UNN-IASR
+#ifndef AUTOMATA_H
+#define AUTOMATA_H
 #include <iostream>
 #include <string>
 #include <vector>
@@ -24,3 +26,4 @@ class Automata {
         void cook();
         void finish();
 };
+#endif
